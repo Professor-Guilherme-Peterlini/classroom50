@@ -1,0 +1,25 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "Técnico em Informática",
+  "short_name": "t-cnico-em-inform-tica",
+  "term": "",
+  "org": "Professor-Guilherme-Peterlini",
+  "team": {
+    "id": 18936843,
+    "slug": "classroom50-t-cnico-em-inform-tica"
+  },
+  "teams": {
+    "teacher": {
+      "id": 18936844,
+      "slug": "classroom50-t-cnico-em-inform-tica-teacher"
+    },
+    "hta": {
+      "id": 18936845,
+      "slug": "classroom50-t-cnico-em-inform-tica-hta"
+    },
+    "ta": {
+      "id": 18936846,
+      "slug": "classroom50-t-cnico-em-inform-tica-ta"
+    }
+  }
+}
