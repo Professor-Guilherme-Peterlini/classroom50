@@ -1,4 +1,79 @@
 {
   "schema": "classroom50/scores/v1",
-  "assignments": {}
+  "assignments": {
+    "m-dulo-1-dns": {
+      "type": "individual",
+      "entries": [
+        {
+          "owner": "guilherme-h",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "t-cnico-em-inform-tica",
+              "assignment_type": "individual",
+              "owner": "guilherme-h",
+              "submission": "submit/2026-08-12T16-22-01Z-3e94111",
+              "commit": "https://github.com/Professor-Guilherme-Peterlini/t-cnico-em-inform-tica-m-dulo-1-dns-guilherme-h/commit/3e941119d113790a8fdf034c47e468cc6050222e",
+              "release": "https://github.com/Professor-Guilherme-Peterlini/t-cnico-em-inform-tica-m-dulo-1-dns-guilherme-h/releases/tag/submit%2F2026-08-12T16-22-01Z-3e94111",
+              "review": "https://github.com/Professor-Guilherme-Peterlini/t-cnico-em-inform-tica-m-dulo-1-dns-guilherme-h/compare/316fbbb63a0ffc88c54e8e2a9671dbc28fc393a5...3e941119d113790a8fdf034c47e468cc6050222e",
+              "datetime": "2026-08-12T16:21:48Z",
+              "graded_at": "2026-08-12T16:22:27Z",
+              "score": 0,
+              "max-score": 10,
+              "tests": [
+                {
+                  "test-name": "Desafios",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 8
+                },
+                {
+                  "test-name": "Quiz",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 2
+                }
+              ],
+              "submitted_by": {
+                "username": "guilherme-h",
+                "id": 174748012
+              }
+            },
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "t-cnico-em-inform-tica",
+              "assignment_type": "individual",
+              "owner": "guilherme-h",
+              "submission": "submit/2026-08-12T16-04-36Z-11912e8",
+              "commit": "https://github.com/Professor-Guilherme-Peterlini/t-cnico-em-inform-tica-m-dulo-1-dns-guilherme-h/commit/11912e87f4f46bb47795a67a54daa559d1d946e1",
+              "release": "https://github.com/Professor-Guilherme-Peterlini/t-cnico-em-inform-tica-m-dulo-1-dns-guilherme-h/releases/tag/submit%2F2026-08-12T16-04-36Z-11912e8",
+              "review": "https://github.com/Professor-Guilherme-Peterlini/t-cnico-em-inform-tica-m-dulo-1-dns-guilherme-h/compare/316fbbb63a0ffc88c54e8e2a9671dbc28fc393a5...11912e87f4f46bb47795a67a54daa559d1d946e1",
+              "datetime": "2026-08-12T16:04:22Z",
+              "graded_at": "2026-08-12T16:05:01Z",
+              "score": 0,
+              "max-score": 10,
+              "tests": [
+                {
+                  "test-name": "Desafios",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 8
+                },
+                {
+                  "test-name": "Quiz",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 2
+                }
+              ],
+              "submitted_by": {
+                "username": "guilherme-h",
+                "id": 174748012
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
