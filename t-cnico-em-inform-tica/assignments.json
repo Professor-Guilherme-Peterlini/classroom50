@@ -54,58 +54,6 @@
       }
     },
     {
-      "slug": "m-dulo-1-dns-4",
-      "name": "Módulo 1 - DNS",
-      "mode": "individual",
-      "autograder": "default",
-      "feedback_pr": true,
-      "copy_about": true,
-      "copy_topics": true,
-      "template": {
-        "owner": "Professor-Guilherme-Peterlini",
-        "repo": "lab-redes-01-dns",
-        "branch": "main"
-      },
-      "description": "Descobrir IPs de sites com nslookup, dig e host",
-      "runtime": {
-        "apt": [
-          "dnsutils",
-          "traceroute",
-          "nmap",
-          "net-tools",
-          "iproute2",
-          "netcat-openbsd",
-          "wireless-tools",
-          "iw",
-          "network-manager"
-        ]
-      },
-      "tests": [
-        {
-          "name": "Desafios",
-          "type": "run",
-          "run": "bash testes/verificar_desafios.sh",
-          "points": 8,
-          "timeout": 30,
-          "exit-code": 0
-        },
-        {
-          "name": "Quiz",
-          "type": "run",
-          "run": "bash testes/verificar_quiz.sh",
-          "points": 2,
-          "timeout": 30
-        }
-      ],
-      "submission_mode": "every-push",
-      "repo_features": {
-        "issues": true,
-        "wiki": false,
-        "projects": false,
-        "pull_requests": true
-      }
-    },
-    {
       "slug": "m-dulo-1-dns-5",
       "name": "Módulo 1 - DNS",
       "mode": "individual",
@@ -427,6 +375,57 @@
       "template": {
         "owner": "Professor-Guilherme-Peterlini",
         "repo": "lab-redes-03-roteamento",
+        "branch": "main"
+      },
+      "runtime": {
+        "apt": [
+          "dnsutils",
+          "traceroute",
+          "nmap",
+          "net-tools",
+          "iproute2",
+          "netcat-openbsd",
+          "wireless-tools",
+          "iw",
+          "network-manager"
+        ]
+      },
+      "tests": [
+        {
+          "name": "Desafios",
+          "type": "run",
+          "run": "bash testes/verificar_desafios.sh",
+          "points": 8,
+          "timeout": 30,
+          "exit-code": 0
+        },
+        {
+          "name": "Quiz",
+          "type": "run",
+          "run": "bash testes/verificar_quiz.sh",
+          "points": 2,
+          "timeout": 30
+        }
+      ],
+      "submission_mode": "every-push",
+      "repo_features": {
+        "issues": true,
+        "wiki": false,
+        "projects": false,
+        "pull_requests": true
+      }
+    },
+    {
+      "slug": "m-dulo-1-dns-4",
+      "name": "Módulo 4 - Segurança",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "copy_about": true,
+      "copy_topics": true,
+      "template": {
+        "owner": "Professor-Guilherme-Peterlini",
+        "repo": "lab-redes-04-seguranca",
         "branch": "main"
       },
       "runtime": {
