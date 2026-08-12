@@ -463,7 +463,7 @@
     },
     {
       "slug": "modulo-10-vpn",
-      "name": "Módulo 9 - Wi-Fi",
+      "name": "Módulo 10 - VPN",
       "mode": "individual",
       "autograder": "default",
       "feedback_pr": true,
@@ -471,7 +471,7 @@
       "copy_topics": true,
       "template": {
         "owner": "Professor-Guilherme-Peterlini",
-        "repo": "lab-redes-09-wifi",
+        "repo": "lab-redes-10-vpn",
         "branch": "main"
       },
       "runtime": {
