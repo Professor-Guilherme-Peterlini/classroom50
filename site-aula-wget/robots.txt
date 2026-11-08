@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /.git/
+Disallow: /old/
+Disallow: /config.php
+Disallow: /.env

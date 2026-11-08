@@ -1,0 +1,13 @@
+# Bloquear acesso a arquivos sensíveis
+<FilesMatch "\.(env|sql|bak|log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^config\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Bloquear listagem de diretórios
+Options -Indexes
